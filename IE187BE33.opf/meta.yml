@@ -1,27 +1,50 @@
 id: IE187BE33
+legacy_id: P006893
+ocr_import_info:
+  bdrc_scan_id: W29341
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-27T10:19:56'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-27T10:25:26+00:00'
-last_modified: '2022-06-08T07:37:44.482060+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-02T11:02:59.341086+00:00'
+last_modified: 2022-09-02 19:04:20.877058
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W29341
-  title: ངེས་དོན་ཕྱག་རྒྱ་ཆེན་པོའི་སྒོམ་རིམ་གསལ་བར་བྱེད་པ་ལེགས་བཤད་ཟླ་བའི་འོད་ཟེར
-  author: ''
+  id: http://purl.bdrc.io/resource/W29341
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: false
-  base:
-    5F8B:
-      image_group_id: I5275
-      title: ''
+  reproduction_of: http://purl.bdrc.io/resource/MW29341
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: ངེས་དོན་ཕྱག་རྒྱ་ཆེན་པོའི་སྒོམ་རིམ་གསལ་བར་བྱེད་པ་ལེགས་བཤད་ཟླ་བའི་འོད་ཟེར།
+  author: དྭགས་པོ་པཎ་ཆེན་བཀྲ་ཤིས་རྣམ་རྒྱལ།
+statistics:
+  ocr_word_mean_confidence_index: 0.9071458378427374
+  ocr_word_median_confidence_index: 0.9800000190734863
+quality: null
+bases:
+  I5275:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I5275
       total_pages: 906
-      order: 1
-      base_file: 5F8B.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I5275.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9071458378427374
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
